@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-05-12 16:15:54">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="01 CICD Test App">824b689cdb4f1410fcf41780399619d6</application>
+<application_name>01 CICD Test App</application_name>
+<application_scope>x_11413_cicd_t_01</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>regular change 2 (missing?)</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a7c192062f88f810d8455aab2799b620</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-12 16:15:53</sys_created_on>
+<sys_id>c15f5ece2f88f810d8455aab2799b6e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-12 16:15:53</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="01 CICD Test App">824b689cdb4f1410fcf41780399619d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_cff19ac22f88f810d8455aab2799b6e8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_11413_cicd_t_01.hello_world_3333&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;updated now&lt;/description&gt;&lt;name&gt;hello_world_3333&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var hello_world_3333 = Class.create();
+hello_world_3333.prototype = {
+    initialize: function() {
+		return false;
+    },
+
+    type: 'hello_world_3333'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-12 15:17:35&lt;/sys_created_on&gt;&lt;sys_id&gt;cff19ac22f88f810d8455aab2799b6e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;hello_world_3333&lt;/sys_name&gt;&lt;sys_package display_value="01 CICD Test App" source="x_11413_cicd_t_01"&gt;824b689cdb4f1410fcf41780399619d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="01 CICD Test App"&gt;824b689cdb4f1410fcf41780399619d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_cff19ac22f88f810d8455aab2799b6e8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-12 15:17:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1119798600</payload_hash>
+<remote_update_set display_value="regular change 2 (missing?)">c15f5ece2f88f810d8455aab2799b6e3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-12 16:15:53</sys_created_on>
+<sys_id>895f5ece2f88f810d8455aab2799b6e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17961279a490000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-12 16:15:53</sys_updated_on>
+<table/>
+<target_name>hello_world_3333</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>0bf19ac2aa88f8105c761a184c04d0eb</update_guid>
+<update_guid_history>0bf19ac2aa88f8105c761a184c04d0eb:-1119798600</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="01 CICD Test App">824b689cdb4f1410fcf41780399619d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_824b689cdb4f1410fcf41780399619d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_model>none</license_model><logo/><menu/><name>01 CICD Test App</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_11413_cicd_t_01</scope><scoped_administration>false</scoped_administration><short_description/><source>x_11413_cicd_t_01</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-31 08:05:34</sys_created_on><sys_id>824b689cdb4f1410fcf41780399619d6</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-21 13:54:07</sys_updated_on><template/><trackable>true</trackable><u_repository>01_cicd_test_app</u_repository><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-277960441</payload_hash>
+<remote_update_set display_value="regular change 2 (missing?)">c15f5ece2f88f810d8455aab2799b6e3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-05-12 16:15:53</sys_created_on>
+<sys_id>c55f5ece2f88f810d8455aab2799b6e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179615c70300000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-05-12 16:15:53</sys_updated_on>
+<table/>
+<target_name>01 CICD Test App</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>ec3f964e7988f810e08a508b80d4379b</update_guid>
+<update_guid_history>ec3f964e7988f810e08a508b80d4379b:-277960441,1924e0f8fa08e4508d51834303611683:-277960441,309be090c08f1410f5f1edee38009a2f:-284239118,464bac90088f1410473464b3b199724b:-1309865792</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
