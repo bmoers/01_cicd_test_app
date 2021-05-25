@@ -1,0 +1,20 @@
+{
+  "operation": "read",
+  "source_scope": "824b689cdb4f1410fcf41780399619d6",
+  "status": "allowed",
+  "sys_class_name": "sys_scope_privilege",
+  "sys_created_by": "admin",
+  "sys_created_on": "2021-04-30 12:53:26",
+  "sys_id": "aeedb7422f336010d8455aab2799b614",
+  "sys_mod_count": 0,
+  "sys_name": "sys_scope",
+  "sys_package": "824b689cdb4f1410fcf41780399619d6",
+  "sys_policy": null,
+  "sys_scope": "824b689cdb4f1410fcf41780399619d6",
+  "sys_update_name": "sys_scope_privilege_aeedb7422f336010d8455aab2799b614",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2021-04-30 12:53:26",
+  "target_name": "sys_scope",
+  "target_scope": "global",
+  "target_type": "sys_db_object"
+}
