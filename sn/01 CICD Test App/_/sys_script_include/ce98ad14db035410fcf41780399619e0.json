@@ -7,7 +7,7 @@
   "description": "updated now",
   "name": "hello_world",
   "script": {
-    "____see": "sn/01 CICD Test App/Script Include/active_true/x_11413_cicd_t_01.hello_world_1.js"
+    "____see": "sn/01 CICD Test App/Script Include/active_true/x_11413_cicd_t_01.hello_world.js"
   },
   "sys_class_name": "sys_script_include",
   "sys_created_by": "admin",
